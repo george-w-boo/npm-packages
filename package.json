@@ -1,5 +1,5 @@
 {
-  "name": "npm-packages",
+  "name": "@m.ostapysko/my-first-published-package",
   "version": "1.0.0",
   "description": "Greeting a person during the day",
   "repository": {
