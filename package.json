@@ -24,7 +24,7 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "author": "george-w-boo",
+  "author": "m.ostapysko",
   "license": "MIT",
   "devDependencies": {
     "rollup": "^4.17.2",
