@@ -1,0 +1,37 @@
+{
+  "name": "@m.ostapysko/my-first-published-package",
+  "version": "1.0.0",
+  "description": "Greeting a person during the day",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/george-w-boo/npm-packages"
+  },
+  "type": "module",
+  "main": "lib/index.cjs",
+  "exports": {
+    "import": {
+      "default": "./lib/index.esm.js",
+      "types": "./lib/types/index.d.ts"
+    },
+    "require": {
+      "default": "./lib/index.cjs",
+      "types": "./lib/types/index.d.ts"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "release-package": "npm run build && npx changeset publish"
+  },
+  "author": "m.ostapysko",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "rollup": "^4.17.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GIT_CHANGESET_TOKEN }}
+      - name: setup node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 20
+      - name: install dependencies
+        run: npm ci
+      - name: Create release pull request
+        id: changeset_action
+        uses: changesets/action@v1
+        with:
+          publish: npm run release-package
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_CHANGESET_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_CHANGESET_TOKEN }}
