@@ -22,7 +22,8 @@
     "lib"
   ],
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "release-package": "npm run build && npx changeset publish"
   },
   "author": "m.ostapysko",
   "license": "MIT",
