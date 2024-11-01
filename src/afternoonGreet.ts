@@ -1,3 +1,3 @@
 export const greetInTheAfternoon = (name: string) => {
-  return "Good afternoon, " + name;
+  return "Have a great afternoon, " + name;
 };
