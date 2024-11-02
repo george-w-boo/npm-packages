@@ -1,6 +1,6 @@
 {
   "name": "@m.ostapysko/my-first-published-package",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Greeting a person during the day",
   "repository": {
     "type": "git",
