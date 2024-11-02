@@ -1,3 +1,3 @@
 export const greetInTheNight = (name: string) => {
-  return "Good night and sweet dreams, " + name + "!";
+  return "Good night and have the sweetest dreams, " + name + "!";
 };
