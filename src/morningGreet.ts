@@ -1,4 +1,4 @@
-const monarchCats = ["Garfield", "Felix"];
+const monarchCats = ["Garfield", "Felix", "Grumpy"];
 
 export const greetInTheMorning = (name: string) => {
   let greet = "Good morning, ";
