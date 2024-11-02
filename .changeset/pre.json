@@ -5,6 +5,7 @@
     "@m.ostapysko/my-first-published-package": "1.2.1"
   },
   "changesets": [
+    "curvy-rockets-serve",
     "tough-points-judge"
   ]
 }
