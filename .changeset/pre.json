@@ -4,5 +4,7 @@
   "initialVersions": {
     "@m.ostapysko/my-first-published-package": "1.2.1"
   },
-  "changesets": []
+  "changesets": [
+    "tough-points-judge"
+  ]
 }
