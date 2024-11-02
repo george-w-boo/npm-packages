@@ -1,0 +1,8 @@
+{
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "@m.ostapysko/my-first-published-package": "1.2.1"
+  },
+  "changesets": []
+}
