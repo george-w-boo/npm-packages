@@ -1,5 +1,11 @@
 # @m.ostapysko/my-first-published-package
 
+## 1.2.2
+
+### Patch Changes
+
+- be1f619: makes the night greet even warmer
+
 ## 1.2.1
 
 ### Patch Changes
