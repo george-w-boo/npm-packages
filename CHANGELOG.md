@@ -12,6 +12,12 @@
 
 - bbca4ff: changes morning greet to greet monarch cats in a special way
 
+## 1.2.2
+
+### Patch Changes
+
+- be1f619: makes the night greet even warmer
+
 ## 1.2.1
 
 ### Patch Changes
