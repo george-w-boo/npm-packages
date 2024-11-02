@@ -1,5 +1,17 @@
 # @m.ostapysko/my-first-published-package
 
+## 2.0.0-beta.1
+
+### Major Changes
+
+- f78855a: adds Grumpy to the monarch cats
+
+## 2.0.0-alpha.0
+
+### Major Changes
+
+- bbca4ff: changes morning greet to greet monarch cats in a special way
+
 ## 1.2.2
 
 ### Patch Changes
