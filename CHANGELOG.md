@@ -1,5 +1,11 @@
 # @m.ostapysko/my-first-published-package
 
+## 1.2.1
+
+### Patch Changes
+
+- 6faaf8d: imroves punctuation and wording for the night greeting
+
 ## 1.2.0
 
 ### Minor Changes
