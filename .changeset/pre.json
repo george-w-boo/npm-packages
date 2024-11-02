@@ -1,6 +1,6 @@
 {
   "mode": "pre",
-  "tag": "alpha",
+  "tag": "beta",
   "initialVersions": {
     "@m.ostapysko/my-first-published-package": "1.2.1"
   },
