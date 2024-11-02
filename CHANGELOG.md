@@ -1,5 +1,11 @@
 # @m.ostapysko/my-first-published-package
 
+## 2.0.0-alpha.0
+
+### Major Changes
+
+- bbca4ff: changes morning greet to greet monarch cats in a special way
+
 ## 1.2.1
 
 ### Patch Changes
